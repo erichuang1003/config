@@ -9,7 +9,7 @@ jdbc:
   driverClass: oracle.jdbc.driver.OracleDriver
   url: jdbc:oracle:thin:@192.168.1.77:1521:XE
   username: test
-  password: {cipher}AQASstNFIFPVshRHzYgLkR36DK7QI+g9foNyG8YKQg4DhLaYWgG/v6GXOWLWDaM7/i+ny9tPIkRHYzWy5ZGOtAzaRj2W9WeQQ5nXVpLLWkrQNoBMPw3KGfAMkyGpskYxzP6muJJ06/cUJ4Osei33dGojGt62kPaonuvgq+1os+upKCf1YZK69xbE58WzDmh+WGTpLDDgm7PEcP4iy8Cj7TVYlu/aXeETI7n55qQwe/ZLPViEgJnB8V0X57+7gb7pLkdDICkiYdi/rQzhH7zG8MRpS0cglHMyILR4UZF2sGvApeK6VpciDBsbUiPp+MSgKy12jXgQFQXxEVtxGUCwKh2El3La1OXqmLUl2qABjgVBaWaWkemWhP4Du457KWLRkN0: 
+  password: '{cipher}AQASstNFIFPVshRHzYgLkR36DK7QI+g9foNyG8YKQg4DhLaYWgG/v6GXOWLWDaM7/i+ny9tPIkRHYzWy5ZGOtAzaRj2W9WeQQ5nXVpLLWkrQNoBMPw3KGfAMkyGpskYxzP6muJJ06/cUJ4Osei33dGojGt62kPaonuvgq+1os+upKCf1YZK69xbE58WzDmh+WGTpLDDgm7PEcP4iy8Cj7TVYlu/aXeETI7n55qQwe/ZLPViEgJnB8V0X57+7gb7pLkdDICkiYdi/rQzhH7zG8MRpS0cglHMyILR4UZF2sGvApeK6VpciDBsbUiPp+MSgKy12jXgQFQXxEVtxGUCwKh2El3La1OXqmLUl2qABjgVBaWaWkemWhP4Du457KWLRkN0='
   initialPoolSize: 10
   maxPoolSize: 50
   maxIdleTime: 600
@@ -20,7 +20,7 @@ cache:
     nodes:
     timeout: 3000
     maxRedirects: 3
-    password: {cipher}AQASstNFIFPVshRHzYgLkR36DK7QI+g9foNyG8YKQg4DhLaYWgG/v6GXOWLWDaM7/i+ny9tPIkRHYzWy5ZGOtAzaRj2W9WeQQ5nXVpLLWkrQNoBMPw3KGfAMkyGpskYxzP6muJJ06/cUJ4Osei33dGojGt62kPaonuvgq+1os+upKCf1YZK69xbE58WzDmh+WGTpLDDgm7PEcP4iy8Cj7TVYlu/aXeETI7n55qQwe/ZLPViEgJnB8V0X57+7gb7pLkdDICkiYdi/rQzhH7zG8MRpS0cglHMyILR4UZF2sGvApeK6VpciDBsbUiPp+MSgKy12jXgQFQXxEVtxGUCwKh2El3La1OXqmLUl2qABjgVBaWaWkemWhP4Du457KWLRkN0: 
+    password: '{cipher}AQASstNFIFPVshRHzYgLkR36DK7QI+g9foNyG8YKQg4DhLaYWgG/v6GXOWLWDaM7/i+ny9tPIkRHYzWy5ZGOtAzaRj2W9WeQQ5nXVpLLWkrQNoBMPw3KGfAMkyGpskYxzP6muJJ06/cUJ4Osei33dGojGt62kPaonuvgq+1os+upKCf1YZK69xbE58WzDmh+WGTpLDDgm7PEcP4iy8Cj7TVYlu/aXeETI7n55qQwe/ZLPViEgJnB8V0X57+7gb7pLkdDICkiYdi/rQzhH7zG8MRpS0cglHMyILR4UZF2sGvApeK6VpciDBsbUiPp+MSgKy12jXgQFQXxEVtxGUCwKh2El3La1OXqmLUl2qABjgVBaWaWkemWhP4Du457KWLRkN0='
     ttl: 86400
     maxTotal: 50
     maxIdle: 10
@@ -38,7 +38,7 @@ rabbitmq:
   host: 192.168.1.77
   port: 5672
   username: test
-  password: {cipher}AQASstNFIFPVshRHzYgLkR36DK7QI+g9foNyG8YKQg4DhLaYWgG/v6GXOWLWDaM7/i+ny9tPIkRHYzWy5ZGOtAzaRj2W9WeQQ5nXVpLLWkrQNoBMPw3KGfAMkyGpskYxzP6muJJ06/cUJ4Osei33dGojGt62kPaonuvgq+1os+upKCf1YZK69xbE58WzDmh+WGTpLDDgm7PEcP4iy8Cj7TVYlu/aXeETI7n55qQwe/ZLPViEgJnB8V0X57+7gb7pLkdDICkiYdi/rQzhH7zG8MRpS0cglHMyILR4UZF2sGvApeK6VpciDBsbUiPp+MSgKy12jXgQFQXxEVtxGUCwKh2El3La1OXqmLUl2qABjgVBaWaWkemWhP4Du457KWLRkN0: 
+  password: '{cipher}AQASstNFIFPVshRHzYgLkR36DK7QI+g9foNyG8YKQg4DhLaYWgG/v6GXOWLWDaM7/i+ny9tPIkRHYzWy5ZGOtAzaRj2W9WeQQ5nXVpLLWkrQNoBMPw3KGfAMkyGpskYxzP6muJJ06/cUJ4Osei33dGojGt62kPaonuvgq+1os+upKCf1YZK69xbE58WzDmh+WGTpLDDgm7PEcP4iy8Cj7TVYlu/aXeETI7n55qQwe/ZLPViEgJnB8V0X57+7gb7pLkdDICkiYdi/rQzhH7zG8MRpS0cglHMyILR4UZF2sGvApeK6VpciDBsbUiPp+MSgKy12jXgQFQXxEVtxGUCwKh2El3La1OXqmLUl2qABjgVBaWaWkemWhP4Du457KWLRkN0='
   defaultRequeueRejected: false
   idleEventInterval: 60000
   concurrentConsumers: 3
