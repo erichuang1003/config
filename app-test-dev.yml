@@ -3,3 +3,7 @@ websocket:
   port: 9000
   path: /
   guest: true
+
+rabbitmq:
+  exchange:
+    websocket: app.websocket.fanout

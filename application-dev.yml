@@ -1,9 +1,3 @@
-#websocket
-websocket:
-  port: 9000
-  path: /
-  guest: true
-
 #oracle c3p0
 jdbc:
   driverClass: oracle.jdbc.driver.OracleDriver
@@ -43,7 +37,6 @@ rabbitmq:
   exchange:
     request:
       http: app.request.http
-    websocket: app.websocket.fanout
   routing:
     key:
       user:
