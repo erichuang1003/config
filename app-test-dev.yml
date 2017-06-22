@@ -14,7 +14,7 @@ jdbc:
   maxPoolSize: 50
   maxIdleTime: 600
 
-#cache redis
+#cache redis/guava
 cache:
   redis:
     nodes:
@@ -26,10 +26,7 @@ cache:
     maxIdle: 10
     maxWait: 3000
     testOnBorrow: true
-
-#cache local
-cache:
-  local:
+  guava:
     maxSize: 1000
     ttl: 500
 
