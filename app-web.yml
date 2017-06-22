@@ -1,0 +1,15 @@
+#amqp rabbitmq
+rabbitmq:
+  exchange:
+    request:
+      http: app.request.http
+  routing:
+    key:
+      user:
+        create: user.create
+        update: user.update
+        delete: user.delete
+
+#session
+session:
+  timeout: 1800

@@ -34,16 +34,3 @@ rabbitmq:
   idleEventInterval: 60000
   concurrentConsumers: 3
   maxConcurrentConsumers: 10
-  exchange:
-    request:
-      http: app.request.http
-  routing:
-    key:
-      user:
-        create: user.create
-        update: user.update
-        delete: user.delete
-
-#session
-session:
-  timeout: 1800
