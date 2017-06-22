@@ -7,3 +7,4 @@ websocket:
 rabbitmq:
   exchange:
     websocket: app.websocket.fanout
+  idleEventInterval: 30000
