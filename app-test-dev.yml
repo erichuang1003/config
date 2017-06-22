@@ -49,8 +49,8 @@ rabbitmq:
     websocket: app.websocket.fanout
   routing:
     key:
-    user:
-      create: user.create
+      user:
+        create: user.create
         update: user.update
         delete: user.delete
 
