@@ -34,13 +34,11 @@ rabbitmq:
   idleEventInterval: 60000
   concurrentConsumers: 3
   maxConcurrentConsumers: 10
+  exchange:
+    websocket: app.websocket.fanout
 
 #websocket
 websocket:
   port: 9000
   path: /
   guest: true
-
-rabbitmq:
-  exchange:
-    websocket: app.websocket.fanout
